@@ -9,7 +9,7 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://pashanext.github.io/product-preview-card-component-main/
 
 ### Built with
 
@@ -18,3 +18,5 @@
 - Flexbox
 
 ### What I learned
+
+-Learned media queries and where add them for breaking points
