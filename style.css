@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+/* media queries  */
+
+@media (max-width: 425px) {
+    main {
+        flex-direction: column;
+        width: 90%;
+    }
+}
+
+/* image-section */
+
+.image-container {
+   width: 100%;
+   flex: 1;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* info-section  */
+
+.info-section {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    flex: 1;
+}
+
+.product-category {
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    margin-bottom: 20px;
+}
+
+.product-title {
+    color: hsl(212, 21%, 14%);
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.product-description {
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* product-pricing */
+
+.product-pricing {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.current-price {
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.original-price {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+/* call to action section */
+
+.btn-cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    padding-inline: 70px;
+    padding-block: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn-cart:hover {
+    background-color: hsl(158, 42%, 18%);
+}
+
